@@ -1,0 +1,18 @@
+body h1 {
+    color:  grey transparent;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #E0115F;
+    text-transform: uppercase;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-size: 200%;
+    border-bottom: none;
+    text-shadow: 2px 2px 1px greenyellow;
+    background-color:  #E0115F;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
