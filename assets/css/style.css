@@ -1,18 +1,62 @@
+/* heading and hero image*/
+
 body h1 {
-    color:  grey transparent;
+    color: #6338a3;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: #E0115F;
     text-transform: uppercase;
     font-family: fantasy;
     letter-spacing: 3px;
-    font-size: 200%;
+    font-size: 250%;
     border-bottom: none;
     text-shadow: 2px 2px 1px greenyellow;
     background-color:  #E0115F;
-    margin-bottom: 0;
+    margin: 0;
+}
+
+#hero-image {
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/shortened-strawberries.jpg');
+    background-color: red;
+    background-size: cover;
+    background-position: center center; 
 }
 
 a {
     text-decoration: none;
+}
+
+/*navigation links*/
+
+#menu {
+    
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    background-color: greenyellow;
+    color:#6338a3;
+}
+
+#menu a:hover {
+    color: #E0115F;
+}
+
+#menu li a:hover {
+    border-bottom: 1px solid #E0115F;
+}
+
+#menu li {
+    display: inline;
+}
+
+#li-2 {
+    margin: 4% 20% 0
+}
+
+header a {
+    
+    padding-bottom: 30%;
+
 }
