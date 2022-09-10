@@ -60,3 +60,20 @@ header a {
     padding-bottom: 30%;
 
 }
+
+/*about and why section*/
+
+#left-about {
+    width: 30%;
+    padding-left: 2%;
+    margin: 0;
+    clear: both;
+    position: absolute;
+}
+
+
+#right-about {
+    width: 30%;
+    padding-right: 2%;
+    float: right;
+}
