@@ -5,7 +5,7 @@ body h1 {
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: #E0115F;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: fantasy;
     letter-spacing: 3px;
     font-size: 250%;
@@ -36,7 +36,7 @@ a {
     margin: 0;
     padding-left: 0;
     background-color: greenyellow;
-    color:#6338a3;
+    color: #6338a3;
 }
 
 #menu a:hover {
@@ -61,7 +61,11 @@ header a {
 
 }
 
-/*about and why section*/
+/*about section*/
+
+section {
+    color: #361764;
+}
 
 #left-about {
     width: 30%;
@@ -76,4 +80,20 @@ header a {
     width: 30%;
     padding-right: 2%;
     float: right;
+}
+
+#center-about {
+    width: 30%;
+    background-color: yellow;
+    margin: 0 auto;
+    background-image: url('../images/pexels-jj-jordan-cropped.jpg'); 
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#spacer {
+    width: 30%;
+    margin: 0 auto;
+    height: 50px;
 }
