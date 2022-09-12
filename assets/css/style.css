@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* heading and hero image*/
 
 body h1 {
@@ -65,6 +70,13 @@ header a {
 
 section {
     color: #361764;
+    font-size: larger;
+}
+
+#container {
+    width: 100%;
+    height: fit-content;
+    padding-top: 3%;
 }
 
 #left-about {
@@ -87,7 +99,7 @@ section {
     background-color: yellow;
     margin: 0 auto;
     background-image: url('../images/pexels-jj-jordan-cropped.jpg'); 
-    height: 700px;
+    height: 500px;
     background-position: center center;
     background-size: cover;
 }
@@ -96,4 +108,19 @@ section {
     width: 30%;
     margin: 0 auto;
     height: 50px;
+}
+
+/*footer*/
+
+footer {
+    padding-top: 5%
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    padding: 5%;
+    display: inline;
 }
